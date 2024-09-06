@@ -1,5 +1,4 @@
-# © 2024 Meir Garada
-# Email: MeirGarada@gmail.com
+# © 2024 
 # All rights reserved.
 
 # This code is part of a teaching example for object-oriented programming concepts.
