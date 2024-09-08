@@ -7,6 +7,7 @@
 
 from abc import ABC, abstractmethod
 
+# Abstract class
 class Vehicle(ABC):
     def __init__(self, make, model):
         self.__make = make  # Private attribute
@@ -32,6 +33,7 @@ class Vehicle(ABC):
     def set_model(self, model):
         self.__model = model
 
+# Composition
 class Engine:
     def __init__(self, engine_type):
         self.engine_type = engine_type
@@ -39,6 +41,7 @@ class Engine:
     def start(self):
         print(f'The {self.engine_type} engine is starting.')
 
+# Inheritance and Polymorphism
 class Car(Vehicle):
     def __init__(self, make, model, doors, engine_type):
         super().__init__(make, model)
@@ -48,6 +51,7 @@ class Car(Vehicle):
     def start_engine(self):
         self.engine.start()
 
+    # Polymorphism
     def display_info(self, detailed=False):
         super().display_info()
         print(f'This car has {self.doors} doors.')
@@ -67,6 +71,7 @@ class Motorcycle(Vehicle):
         super().display_info()
         print(f'This motorcycle is a {self.type} type.')
 
+# Method Overloading (using default arguments)
 class Truck(Vehicle):
     def __init__(self, make, model, capacity, engine_type):
         super().__init__(make, model)
