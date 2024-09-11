@@ -34,6 +34,10 @@ This final stage combines all the features into a comprehensive example, illustr
 
 [View Code](https://github.com/MeirG9/OOP-Teaching-Examples/blob/main/All%20Features%20Together.py)
 
+### Bonus Stage: Magic methods
+Important special methods (also known as “magic methods” or “dunder methods”) in Python that can enhance the functionality of classes
+
+[View Code](https://github.com/MeirG9/OOP-Teaching-Examples/blob/main/Magic%20methods.py)
 
 ## kahoot quiz
 [Link](https://create.kahoot.it/share/oop/f49d5048-4472-4532-bac6-e3bb4935780d)
